@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rimsha Akbar - Resume</title>
+    <style>
+        /* General Reset & Body Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+            padding: 30px;
+        }
+
+        /* Main Container */
+        .resume-container {
+            max-width: 800px;
+            background: #ffffff;
+            margin: 0 auto;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Header Section Layout */
+        header {
+            display: flex;
+            align-items: center; /* Text aur image ko vertical center mein rakhne ke liye */
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+            border-bottom: 1px solid #eaeaea;
+        }
+
+        .header-text {
+            /* Text left side par rahega */
+        }
+
+        header h1 {
+            font-size: 28px;
+            color: #2c3e50;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .title {
+            font-size: 16px;
+            color: #16a085;
+            font-weight: 600;
+            margin: 5px 0;
+        }
+
+        .contact-info {
+            font-size: 14px;
+            color: #7f8c8d;
+        }
+
+        /* Profile Picture Pushed to Extreme Right using CSS */
+        .profile-pic {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%; /* Gol shape ke liye */
+            object-fit: cover;
+            border: 3px solid #16a085;
+            margin-left: auto; /* Yeh property picture ko bilkul right corner par dhakel deti hai */
+        }
+
+        /* Section Headings */
+        section {
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            font-size: 18px;
+            color: #2c3e50;
+            padding-bottom: 5px;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Content Styling */
+        p {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .job-item, .edu-item, .project-item {
+            margin-bottom: 15px;
+        }
+
+        .job-title {
+            font-weight: bold;
+            color: #34495e;
+            font-size: 15px;
+        }
+
+        .company-date {
+            font-size: 13px;
+            color: #7f8c8d;
+            margin-bottom: 5px;
+            font-style: italic;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        li {
+            font-size: 13px;
+            color: #555;
+            margin-bottom: 4px;
+        }
+
+        /* Skills and Certifications Lists */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+
+        .skills-grid div {
+            font-size: 13px;
+            color: #555;
+        }
+
+        .skills-grid span {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="resume-container">
+        <!-- Header with Text on Left & Picture Pushed to Right -->
+        <header>
+            <div class="header-text">
+                <h1>Rimsha Akbar</h1>
+                <div class="title">Developer</div>
+                <div class="contact-info">
+                    m5789889@gmail.com | +923054900888<br>Lahore, Pakistan
+                </div>
+            </div>
+            <!-- Yahan apni picture ka naam ya link dein -->
+            <img src="c:\Users\RIMSHA AKBAR\Downloads\images.jpg" alt="Rimsha Akbar Profile Picture" class="profile-pic">
+        </header>
+
+        <!-- Summary -->
+        <section>
+            <h2>Summary</h2>
+            <p>A final-year Computer Science student combining development skills with creative graphic design expertise to build user-focused digital environments. Experienced in developing responsive layouts, wireframes, and consistent design systems. I bridge frontend workflows and visual principles to translate concepts into clean, functional code. Seeking an entry-level Developer or Graphic Designer role to craft impactful experiences while finishing my degree.</p>
+        </section>
+
+        <!-- Experience -->
+        <section>
+            <h2>Experience</h2>
+            
+            <div class="job-item">
+                <div class="job-title">Administration</div>
+                <div class="company-date">M.A GRAMMAR SCHOOL, 37 H Model Town Lahore</div>
+                <ul>
+                    <li>Managed daily school operations and student records, improving office efficiency by 20% through digital filing.</li>
+                    <li>Developed a new digital scheduling system for exams, reducing scheduling conflicts by 15%.</li>
+                    <li>Led communication between faculty and 200+ students/parents, achieving a 95% satisfaction rate in query resolution.</li>
+                    <li>Optimized academic material distribution using software tools, saving 5+ hours of manual work per week.</li>
+                </ul>
+            </div>
+
+            <div class="job-item">
+                <div class="job-title">Teacher</div>
+                <div class="company-date">M.A GRAMMAR SCHOOL, 37 H Model Town Lahore</div>
+                <ul>
+                    <li>Developed interactive lesson plans for 40+ students, increasing class participation by 25%.</li>
+                    <li>Led remedial tutoring sessions for struggling students, boosting the class passing rate by 15%.</li>
+                    <li>Managed classroom behavior using positive reinforcement, reducing disruptions by 30%.</li>
+                    <li>Collaborated with faculty to design digital learning materials, saving 4 hours of prep time weekly.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section>
+            <h2>Education</h2>
+            <div class="edu-item">
+                <p><strong>Bachelor of Science in Computer Science</strong> | 2023-Present<br>
+                Lahore College for Women University, Lahore</p>
+                <p><strong>Intermediate</strong> | 2021-2023<br>
+                DPS College, Lahore</p>
+                <p><strong>Matriculation</strong> | 2019-2021<br>
+                Yousaf School System, Lahore</p>
+            </div>
+        </section>
+
+        <!-- Skills & Languages -->
+        <section>
+            <h2>Skills & Languages</h2>
+            <div class="skills-grid">
+                <div><span>Technical:</span> Adobe Illustrator, Canva, Frontend and Web Development, HTML5, CSS3, JavaScript, VS Code, XAMPP, IBM SPSS Statistics</div>
+                <div><span>Tools:</span> Adobe Photoshop, Corel Draw, MS Office</div>
+                <div><span>Languages:</span> English, Urdu</div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section>
+            <h2>Projects</h2>
+            <div class="project-item">
+                <p><strong>Student Registration Form</strong><br>
+                Tech: JavaScript, HTML5, CSS3</p>
+                <p><strong>Professional Coffee Website</strong><br>
+                Tech: HTML5, CSS3</p>
+            </div>
+        </section>
+
+        <!-- Certifications -->
+        <section>
+            <h2>Certifications</h2>
+            <ul>
+                <li><strong>Graphic Designing</strong> - Code Alpha</li>
+                <li><strong>Graphic Designing</strong> - Freelancers Community</li>
+                <li><strong>Canva Designing</strong> - NDU Freelancing</li>
+                <li><strong>Digital Marketing</strong> - JDC Foundation</li>
+            </ul>
+        </section>
+    </div>
+
+</body>
+</html>
